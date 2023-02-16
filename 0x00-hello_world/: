@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
  * main -  the containing function
  *
- * * Return: if no error, it closes the function
+ * Return: if no error, it closes the function
  */
 int main(void)
 {
