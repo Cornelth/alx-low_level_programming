@@ -1,7 +1,7 @@
 #include <stdio.h>
 /** 
- * To print sizes of data type on this pc
- * to return 0
+ *main:  To print sizes of data type on this pc
+ * return: to return 0, meaning no error
  * */
 int main(void)
 {
