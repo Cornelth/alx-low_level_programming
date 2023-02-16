@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main:  the containing function
- *
+ * main -  the containing function
+ * 
  * Return: if no error, it closes the function
  */
 int main(void)
