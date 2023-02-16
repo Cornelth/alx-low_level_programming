@@ -2,7 +2,8 @@
 
 /**
  * main:  the containing function
- * Return: 0 if no error, it closes the function
+ *
+ * Return: if no error, it closes the function
  */
 int main(void)
 {
