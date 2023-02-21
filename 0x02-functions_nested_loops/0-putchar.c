@@ -1,10 +1,10 @@
 #include <main.h>
-	/*
-	 * main - To print _putchar without using standard io function
-	 *
-	 *
-	 *Return: 0
-	 */
+/*
+* main - To print _putchar without using standard io function
+*
+*
+*Return: 0
+*/
 int main(void)
 {
 	_putchar('_');
