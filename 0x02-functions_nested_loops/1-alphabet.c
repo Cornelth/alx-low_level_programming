@@ -9,6 +9,7 @@ void print_alphabet(void)
 	let = 'a';
 	do {
 		_putchar(let);
+		let++;
 	} while (let <= 'z');
 	_putchar('\n');
 }
