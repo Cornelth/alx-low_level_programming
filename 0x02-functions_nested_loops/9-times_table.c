@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- *times_table - multiplication table for 0 to 9
+ * times_table -prints tables
  *
- *
- *Return: 0
+ * Return: Always 0.
  */
 void times_table(void)
 {
@@ -46,3 +45,4 @@ void times_table(void)
 		}
 		_putchar ('\n');
 	}
+}
