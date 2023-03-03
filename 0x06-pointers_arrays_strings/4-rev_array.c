@@ -21,7 +21,7 @@ for (k = 0; k < n - 1; k = k + 1)
 end_c++;
 }
 
-for (i = 0; i < n / 2; i++)
+for (k = 0; k < n / 2; k = k + 1)
 {
 
 c = *end_c;
