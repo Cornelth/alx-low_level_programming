@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  *malloc_checked - creating an array using malloc for string printing
  *@b: number of memory to be created
