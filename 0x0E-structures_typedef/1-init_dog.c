@@ -13,7 +13,6 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d)
 	{
-		/*. or -> can be used to define struct pointer*/
 		d->name = name;
 		d->age = age;
 		d->owner = owner;
