@@ -1,5 +1,5 @@
 #include "function_pointers.h"
-
+#include <stdlib.h>
 /**
  * int_index - A fn that Searches for an integer in an array of integers.
  * @array: The array of integers to serch within.
