@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * main - a function that prints its own opcodes
  * @argc: number of arguments supplied
@@ -37,6 +37,5 @@ int main(int argc, char *argv[])
 		}
 		printf("%02hhx", arr[count]);
 	}
-	printf("\n");
 	return (0);
 }
