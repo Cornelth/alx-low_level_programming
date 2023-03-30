@@ -1,9 +1,10 @@
 #include "lists.h"
+#include <stdio.h>
 
 /**
  * print_list - prints the elements in a list.
  * @h: param list
- * @element: a counter var for elements for size_t (nodes)
+ * element- a counter var for elements for size_t (nodes)
  * Return: the number of element in h
  */
 
