@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <string.h>
 /**
  * add_node - a fn that add a new node at the beginning of a list_t list
  * @head: head of the linked list.
