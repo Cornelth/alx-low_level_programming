@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * file_error - this fn checks if files can be opened.
+ * error_file - this fn checks if files can be opened.
  * @file_from: file_from.
  * @file_to: file_to.
  * @argv: arguments vector.
  * Return: no return.
  */
-void file_error(int file_from, int file_to, char *argv[])
+void error_file(int file_from, int file_to, char *argv[])
 {
 	if (file_from == -1)
 	{
