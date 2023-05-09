@@ -25,11 +25,11 @@ void close_elf(int elf);
  */
 void check_elf(unsigned char *e_ident)
 {
-	int counter;
+	int index;
 
-	for (counter = 0; counter < 4; counter++)
+	for (index = 0; index < 4; index++)
 	{
-		if (e_ident[counter] != 127 && e_ident[index] != 'E' &&
+		if (e_ident[index] != 127 && e_ident[index] != 'E' &&
 		    e_ident[index] != 'L' &&
 		    e_ident[index] != 'F')
 		{
@@ -48,15 +48,15 @@ void check_elf(unsigned char *e_ident)
 
 void print_magic(unsigned char *e_ident)
 {
-	int counter;
+	int index;
 
 	printf(" Magic:  ");
 
-	for (counter = 0; counter < EI_NIDENT; counter++)
+	for (index = 0; index < EI_NIDENT; index++)
 	{
-		printf("%02x", e_ident[counter]);
+		printf("%02x", e_ident[index]);
 
-		if (counter == EI_NIDENT - 1)
+		if (index == EI_NIDENT - 1)
 			printf("\n");
 		else
 			printf(" ");
